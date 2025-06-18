@@ -1,0 +1,20 @@
+class BankAccount: # A simple bank account class to demonstrate object oriented programming principles
+    def __init__(self, account_balance=0):
+        self.account_balance = account_balance_ # Initialize the account with a account_balance of 0
+
+        def deposit(self, amount):
+            if amount > 0:
+                self.account_balance += amount
+            else:
+                raise ValueError("Deposit amount must be positive") # Ensure that the deposit amount is positive
+
+        def withdraw(self, amount):
+            if amount > 0 and amount <= self.account_balance:
+                self.account_balance -= amount
+                return True
+            return False
+
+        def display_balance(self, ):
+            print(f"Current Balance: ${float(self.account_balance):.2f")
+
+            # Display the account balance i the specifiend currency, defaulting to USD
