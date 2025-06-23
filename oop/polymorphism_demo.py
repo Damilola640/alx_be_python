@@ -8,7 +8,7 @@ class Shape:
 
 
 # Derived class: Rectangle
-class Rectangle(shape):
+class Rectangle(Shape):
     def _init_(self, length: float, width: float):
         self.length = length
         self.width = width
@@ -18,7 +18,7 @@ class Rectangle(shape):
 
 
 # Derived class: Circle
-class Circle(shape):
+class Circle(Shape):
     def _init_(self, radius: float):
         self.radius = radius
 
